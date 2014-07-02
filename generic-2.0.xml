@@ -1,0 +1,44 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:fbreader="http://data.fbreader.org/catalog/metadata/">
+<id>generic-2.0.xml</id>
+<title>kangaroo catalogs list</title>
+<updated>2014-05-21T03:29:00Z</updated>
+<author>
+<name>Geometer Plus</name>
+<uri>http://www.fbreader.org</uri>
+<email>worldwu@sina.com</email>
+</author>
+
+<entry>
+<id>urn:kbreader-org-catalog:www.coay.com</id>
+<dc:language>zh</dc:language>
+<updated>2013-09-23T23:57:00Z</updated>
+<title>COAY</title>
+<content>献给所有爱读书的人</content>
+<link type="application/atom+xml" href="http://www.coay.com/opds_new/index.php"/>
+<link rel="search" type="application/atom+xml" href="http://www.coay.com/opds_new/search.php?q={searchTerms}"/>
+<fbreader:relationAlias alias="x-stanza-cover-image-thumbnail" name="http://opds-spec.org/thumbnail"/>
+<fbreader:relationAlias alias="x-stanza-cover-image" name="http://opds-spec.org/cover"/>
+</entry>
+<entry>
+<id>urn:kbreader-org-catalog:shucang.org</id>
+<dc:language>zh</dc:language>
+<updated>2013-09-23T23:57:00Z</updated>
+<title>书仓</title>
+<content>书仓，你的数字书房</content>
+<link type="application/atom+xml" href="http://www.shucang.org/s/index.php"/>
+<link rel="search" type="application/atom+xml" href="http://www.shucang.org/s/doclist.php?skey={searchTerms}"/>
+<fbreader:relationAlias alias="x-stanza-cover-image-thumbnail" name="http://opds-spec.org/thumbnail"/>
+<fbreader:relationAlias alias="x-stanza-cover-image" name="http://opds-spec.org/cover"/>
+<link type="image/png" rel="http://opds-spec.org/thumbnail" href="http://tp.shucang.org/shucang/s/images/shucang.png"/>
+</entry>
+<entry>
+<id>urn:kbreader-org-catalog:books.blah.me</id>
+<dc:language>zh</dc:language>
+<updated>2013-09-23T23:57:00Z</updated>
+<title>老郁藏书阁</title>
+<content>Online catalog of someok favorite ebook site!</content>
+<link type="application/atom+xml" href="http://books.blah.me/books/index.atom"/>
+<fbreader:relationAlias alias="x-stanza-cover-image-thumbnail" name="http://opds-spec.org/thumbnail"/>
+<fbreader:relationAlias alias="x-stanza-cover-image" name="http://opds-spec.org/cover"/>
+</entry>
+</feed>
